@@ -1,17 +1,18 @@
 a {
     text-decoration: none;
-    color: #a6a6a6;
+    color: #8b9dc3;
     padding: .5em;
     margin: 1em .5em;
 }
 
 a:hover {
-    text-decoration: none;
-    color: gray;
+    text-decoration: underine;
+    color: #3b5998;
 }
 
 body {
     font-family: Helvetica Neue, Helvetica, arial, freesans, clean, sans-serif;
+
 }
 
 #nav {
@@ -24,17 +25,27 @@ body {
 }
 
 .header {
-    text-align: center;
-    color: #737373;
-    border-bottom: #ccc solid 1px;
-    max-width: 640px;
-    margin: 0 auto;
+	text-align: center;
+	color: #8b9dc3;
+	border-bottom: #ccc solid 1px;
+	max-width: 640px;
+	margin: 0 auto;
 }
 
 .main {
-    color: #737373;
-    max-width: 640px;
-    margin: 0 auto;
-    font-size: 14pt;
-    padding-top: 20px;
+	color: #8b9dc3;
+	max-width: 640px;
+	margin: 0 auto;
+	font-size: 14pt;
+	padding-top: 20px;
+	font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+}
+
+#topheader {
+	position: absolute;
+	right: 1.5em;
+	top: 18px;
+	font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+	color: #8b9dc3;
+
 }
